@@ -198,7 +198,8 @@ $(document).ready(function(){
   var localStream;
   function startUserMedia(stream) {
 	var input = audio_context.createMediaStreamSource(stream);
-	video.src = window.URL.createObjectURL(stream);
+	//video.src = window.URL.createObjectURL(stream);
+	video.srcObject = stream;
 	__log('Media stream created.');
 	
 	var zeroGain = audio_context.createGain();
