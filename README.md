@@ -11,6 +11,8 @@ where gets the file format.
 The file video.js contains the commands of strat stream, stop, encode and save.
 For the audio, his controls are inside the file index.php as js script at the bottom.
 
+Use ffmpeg to combine video and audio into one file using the xommand: "ffmpeg -i doesitwork.webm -i doesitwork.wav  output.mp4"
+
 
 The project contains Javascript libraries and php files.
 
